@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "Examples", "index.html", [
-    [ "Micro speech example", "index.html#examples_microspeech", [
+    [ "Microspeech example", "index.html#examples_microspeech", [
       [ "Prerequisites", "index.html#examples_microspeech_pre", null ],
       [ "Running on a virtual target", "index.html#examples_microspeech_fvp", null ],
       [ "Running on a hardware target", "index.html#examples_microspeech_imxrt", null ]
