@@ -31,6 +31,7 @@
 #nav-tree .selected {
   border: 1.5px solid var(--arm_blue);
   border-left-width: 5px;
+  margin-left:-10px; /*correction to place selection border on the edge screen edge */
 }
 
 #nav-tree img {
@@ -43,6 +44,7 @@
 #nav-tree a {
   text-decoration:none;
   padding:0px;
+  padding-left:0px;
   margin:0px;
   outline:none;
 }
@@ -67,9 +69,9 @@
   font-weight: bold;
 }
 
-/*correction for the larger box border on the left */
+/*correction for the larger box border on the left (10px-5px) */
 #nav-tree .selected .arrow {
-  margin-left:-5px;
+  margin-left:5px;
 }
 
 #nav-tree .children_ul {
@@ -77,13 +79,9 @@
   padding:0px;
 }
 
-#nav-tree .item {
-  margin:0px;
-  padding:0px;
-}
-
 #nav-tree {
   padding: 0px 0px;
+  padding-left: 10px;  /*correction to add space before the first arrow in nav-tree */
   background-color: #FAFAFF;
   overflow:auto;
 }
@@ -102,7 +100,7 @@
   display:block;
   position: absolute;
   left: 0px;
-  width: 300px;
+  width: 310px;
 }
 
 .ui-resizable .ui-resizable-handle {

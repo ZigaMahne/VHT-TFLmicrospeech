@@ -89,12 +89,22 @@ body, table, div, p, dl {
     line-height: 24px;
 }
 
-ul ul {
+ul {
 	list-style-type: disc;
+	padding-left: 2em;
+}
+
+li {
+	margin-top: 0.25em;
+	line-height: 24px;
+}
+
+ul ul {
+	list-style-type: circle;
 }
 
 ul ul ul {
-	list-style-type: disc;
+	list-style-type: square;
 }
 
 ul.hierarchy {
@@ -615,7 +625,7 @@ table.memberdecls {
 }
 
 .memItemLeft, .memItemRight, .memTemplParams {
-	border-top: 1px solid #C3CFE6;
+	border-top: 1px solid var(--arm_light_gray);/*#C3CFE6;*/
 }
 
 .memItemLeft, .memTemplItemLeft {

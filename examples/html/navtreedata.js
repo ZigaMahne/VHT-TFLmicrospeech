@@ -25,10 +25,10 @@
 var NAVTREE =
 [
   [ "Examples", "index.html", [
-    [ "Microspeech example", "index.html#examples_microspeech", [
-      [ "Prerequisites", "index.html#examples_microspeech_pre", null ],
-      [ "Running on a virtual target", "index.html#examples_microspeech_fvp", null ],
-      [ "Running on a hardware target", "index.html#examples_microspeech_imxrt", null ]
+    [ "Micro speech example", "mspeech.html", [
+      [ "Prerequisites", "mspeech.html#mspeech_pre", null ],
+      [ "Running on a virtual target", "mspeech.html#examples_microspeech_fvp", null ],
+      [ "Running on a hardware target", "mspeech.html#examples_microspeech_imxrt", null ]
     ] ]
   ] ]
 ];

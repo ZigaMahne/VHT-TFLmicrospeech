@@ -38,7 +38,11 @@ var NAVTREE =
       ] ],
       [ "Running Micro Speech", "vht_aws.html#run_example", null ]
     ] ],
-    [ "Using Arm VHT with GitHub Actions", "vht_github.html", null ],
+    [ "Using Arm VHT with GitHub Actions", "vht_github.html", [
+      [ "Configure the Arm VHT AMI", "vht_github.html#autotoc_md0", [
+        [ "Usage", "vht_github.html#autotoc_md1", null ]
+      ] ]
+    ] ],
     [ "Using Arm VHT with MDK-Professional", "vht_mdk_pro.html", null ]
   ] ]
 ];

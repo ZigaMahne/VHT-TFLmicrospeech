@@ -13,5 +13,7 @@ var NAVTREEINDEX0 =
 "vht_aws.html#use_ssh":[0,2,0],
 "vht_aws.html#use_vnc":[0,2,1],
 "vht_github.html":[1],
+"vht_github.html#autotoc_md0":[1,0],
+"vht_github.html#autotoc_md1":[1,0,0],
 "vht_mdk_pro.html":[2]
 };
